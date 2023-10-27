@@ -1,8 +1,70 @@
-# React + Vite
+# React + Vite Updated Portfolio 
+  
+  
+  ## Description  ✏️
+  
+  This repo shows updated code for using the Vite buiild tool instead of CRA. Now will tailwindcss
+  
+  ## Table of Contents 📖
+  
+  - [Installation](#installation-🛠️)
+  
+  - [Usage](#usage-👨‍💻)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  
 
-Currently, two official plugins are available:
+  - [Issues](#known-issues-🤔)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  - [Contributing](#how-to-contribute-🤝)
+  
+  - [Tests](#tests-🧪) 
+
+  - [Credits](#credits-🏆)
+  
+  - [Questions](#questions-❓)
+  
+  ## Installation 🛠️
+  
+  To install necessary dependencies, run the following command:
+  
+  ```
+  npm i
+  ```
+  
+  ## Usage 👨‍💻
+  
+  Clone the repository, install dependencies and run npm start dev
+
+  ### Deployed Link
+  not deployed at this time
+
+### Screenshots
+![screenshot-0](./src/assets/contact.png)
+
+
+
+
+## Known Issues 🤔
+Still coding it
+
+## How To Contribute 🤝
+  
+Fork the repository and make a pull request with your new code.
+  
+## Tests 🧪
+  
+To run tests, run the following command:
+  
+  ```
+  n/a
+  ```
+
+
+## Credits 🏆
+tailwindcss
+
+ ## Questions ❓
+  
+If you have any questions about the repo, open an issue or contact me directly at megan.meyers.388@gmail.com. 
+  
+  

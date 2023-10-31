@@ -1,8 +1,14 @@
-function About () {
+import me from "../assets/me.png";
 
-    return (
-      <div className="">About me section goes here</div>
-    )
+function About() {
+  return (
+    <div className="d-flex-l">
+      <img src={me} />
+      <div>
+        <p className="mx-2">Hi I'm Kitty and this is my portfolio.</p>
+      </div>
+    </div>
+  );
 }
 
 export default About;

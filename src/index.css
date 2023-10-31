@@ -20,3 +20,14 @@
   width: 450px;
   object-fit: cover;
 }
+
+.d-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.d-flex-l{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}

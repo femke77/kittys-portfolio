@@ -5,7 +5,7 @@ function About() {
     <div className="d-flex-l">
       <img src={me} />
       <div>
-        <p className="mx-2">Hi I'm Kitty and this is my portfolio.</p>
+        <p className="mx-4">Hi I'm Kitty and this is my portfolio.</p>
       </div>
     </div>
   );

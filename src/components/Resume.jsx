@@ -10,11 +10,11 @@ export default function Resume() {
 
   return (
   <>
-      <div className="pb-2">
-        <h3>Resume</h3>
+      <div className="pb-2 ">
+        <h3 className="pb-2 text-3xl">Resume</h3>
         <h6>
-          Print or download my{" "}
-          <a href="#resumePDF" onClick={handleClick}>
+          Toggle here to print or download my{" "}
+          <a href="#resumePDF" onClick={handleClick} className="underline">
             resume
           </a>
         </h6>

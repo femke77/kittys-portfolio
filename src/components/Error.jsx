@@ -29,12 +29,7 @@ export default function ErrorPage() {
             >
               Go back home
             </a>
-            {/* <a href="#" className="text-sm font-semibold text-gray-900">
-                Contact support <span aria-hidden="true">&rarr;</span>
-              </a> */}
-            {/* <p>
-              Error message: <i>{error.statusText || error.message}</i>
-            </p> */}
+          
           </div>
         </div>
       </main>

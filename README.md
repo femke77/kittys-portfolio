@@ -1,8 +1,8 @@
 # Kitty's New Portfolio - React + Vite
-  ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
   ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+  ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
   ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
   
   ## Description  ✏️
   
@@ -10,21 +10,21 @@
   
   ## Table of Contents 📖
   
-  - [Installation](#installation-🛠️)
+  [Installation](#installation-🛠️)
   
-  - [Usage](#usage-👨‍💻)
+  [Usage](#usage-👨‍💻)
 
   
 
-  - [Issues](#known-issues-🤔)
+  [Issues](#known-issues-🤔)
 
-  - [Contributing](#how-to-contribute-🤝)
+  [Contributing](#how-to-contribute-🤝)
   
-  - [Tests](#tests-🧪) 
+  [Tests](#tests-🧪) 
 
-  - [Credits](#credits-🏆)
+  [Credits](#credits-🏆)
   
-  - [Questions](#questions-❓)
+  [Questions](#questions-❓)
   
   ## Installation 🛠️
   

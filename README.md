@@ -10,23 +10,23 @@
   
   ## Table of Contents 📖
   
-  [Installation](#installation-🛠️)
+  [Installation](#installation)
   
-  [Usage](#usage-👨‍💻)
+  [Usage](#usage)
 
   
 
-  [Issues](#known-issues-🤔)
+  [Issues](#known-issues)
 
-  [Contributing](#how-to-contribute-🤝)
+  [Contributing](#how-to-contribute)
   
-  [Tests](#tests-🧪) 
+  [Tests](#tests) 
 
-  [Credits](#credits-🏆)
+  [Credits](#credits)
   
-  [Questions](#questions-❓)
+  [Questions](#questions)
   
-  ## Installation 🛠️
+  ## Installation
   
   To install necessary dependencies, run the following command:
   
@@ -34,7 +34,7 @@
   npm i
   ```
   
-  ## Usage 👨‍💻
+  ## Usage
   
   Clone the repository, install dependencies and run npm start dev
 
@@ -51,14 +51,14 @@
 
 
 
-## Known Issues 🤔
+## Known Issues
 None
 
-## How To Contribute 🤝
+## How To Contribute
   
 Fork the repository and make a pull request with your new code.
   
-## Tests 🧪
+## Tests
   
 To run tests, run the following command:
   
@@ -67,10 +67,12 @@ To run tests, run the following command:
   ```
 
 
-## Credits 🏆
-tailwindcss
+## Credits
+Footer by: Creative Tim
+@creative-tim
+Fully Coded UI Tools to create web and mobile apps [creative-tim](http://www.creative-tim.com)
 
- ## Questions ❓
+ ## Questions
   
 If you have any questions about the repo, open an issue or contact me directly at megan.meyers.388@gmail.com. 
   

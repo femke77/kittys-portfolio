@@ -1,9 +1,12 @@
-# React + Vite Updated Portfolio 
-  
+# Kitty's New Portfolio - React + Vite
+  ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+  ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+  ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
   
   ## Description  ✏️
   
-  This repo shows updated code for using the Vite buiild tool instead of CRA. Now will tailwindcss
+  This repo shows updated code for using the Vite buiild tool instead of CRA. Now with tailwindcss!
   
   ## Table of Contents 📖
   
@@ -40,14 +43,16 @@
 
 ### Screenshots
 ![screenshot-1](./src/assets/about.png)
+
 ![screenshot-2](./src/assets/portfolio.png)
-![screenshot-0](./src/assets/contact.png)
+
+![screenshot-3](./src/assets/contact.png)
 
 
 
 
 ## Known Issues 🤔
-Still coding it
+None
 
 ## How To Contribute 🤝
   

@@ -39,6 +39,8 @@
   not deployed at this time
 
 ### Screenshots
+![screenshot-1](./src/assets/about.png)
+![screenshot-2](./src/assets/portfolio.png)
 ![screenshot-0](./src/assets/contact.png)
 
 

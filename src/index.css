@@ -26,15 +26,27 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.d-flex-l>div>p{
+  text-wrap: wrap;
+}
+
 .d-flex-l{
   display: flex;
   flex-wrap: wrap;
   margin-top: 25px;
 }
-
+.d-flex-l > div{
+  width: 100%;
+  height: auto;
+}
+.d-flex-l> div.about {
+  flex-basis: 70%;
+}
 main {
   min-height: 300px;
-  margin: 30px;
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
 
         

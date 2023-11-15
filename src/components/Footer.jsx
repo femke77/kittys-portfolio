@@ -10,7 +10,7 @@ function Footer() {
               <div className="w-full lg:w-6/12 px-4">
                 <h4 className="text-2xl fonat-semibold text-blueGray-700">Let's keep in touch!</h4>
                 <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
-                  Find me on any of these platforms, I am a very busy cat, but I respond 1-2 business days.
+                  Find me on any of these platforms, I am a very busy cat, but I respond in 1-2 business days.
                 </h5>
                 <div className="mt-6 lg:mb-0 mb-6">
                   <button className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">

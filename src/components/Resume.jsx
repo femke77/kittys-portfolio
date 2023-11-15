@@ -22,7 +22,7 @@ export default function Resume() {
       {showPDF ? (
         <div>
           <ul>
-            Front-end Proficiencies
+           <p className="font-bold"> Front-end Proficiencies</p>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -30,10 +30,11 @@ export default function Resume() {
             <li>Responsive Design</li>
             <li>ReactJS</li>
             <li>Bootstrap</li>
+            <li>MUI</li>
+            <li>TailwindCSS</li>
           </ul>
           <ul>
-            Back-end Proficiencies
-            <li>APIs</li>
+          <p className="font-bold"> Back-end Proficiencies</p>
             <li>Node</li>
             <li>Express</li>
             <li>MySQL & Sequelize</li>

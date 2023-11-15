@@ -209,7 +209,7 @@ export default function Contact() {
         </div>
         {userMessage && (
           <div className="error">
-            <p className={userMessage==="Email sent!" ? "text-green-800": "error-text text-red-800"}>{userMessage}</p>
+            <p className={userMessage==="Email sent!" ? "text-green-500": "text-red-500"}>{userMessage}</p>
           </div>
         )}
         <div className="mt-10">

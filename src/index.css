@@ -5,7 +5,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   margin: 0;
-  padding:0;
+  padding: 0;
   box-sizing: border-box;
   min-height: 100%;
   font-synthesis: none;
@@ -15,38 +15,46 @@
   -webkit-text-size-adjust: 100%;
 }
 
-.p-img{
+.p-img {
   height: 250px;
   width: 450px;
   object-fit: cover;
 }
 
-.d-flex{
+.d-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.d-flex-l>div>p{
+.d-flex-l>div>p {
   text-wrap: wrap;
 }
 
-.d-flex-l{
+.d-flex-l {
   display: flex;
   flex-wrap: wrap;
   margin-top: 25px;
+  justify-content: center;
 }
-.d-flex-l > div{
+
+.d-flex-l>div {
   width: 100%;
   height: auto;
 }
-.d-flex-l> div.about {
-  flex-basis: 70%;
+
+.d-flex-l>div.about {
+  flex-basis: 80%;
 }
+
 main {
   min-height: 300px;
   margin-top: 30px;
   margin-bottom: 60px;
 }
 
-        
+.a-img {
+  height: 250px;
+  width: 450px;
+  object-fit: cover;
+}

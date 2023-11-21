@@ -48,6 +48,8 @@
 
 ![screenshot-3](./src/assets/contact.png)
 
+![screenshot-3](./src/assets/404.png)
+
 
 
 

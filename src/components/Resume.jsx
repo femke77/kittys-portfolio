@@ -9,8 +9,8 @@ export default function Resume() {
   };
 
   return (
-  <>
-      <div className="pb-2 ">
+    <>
+      <div className="pb-2 mx-5">
         <h3 className="pb-2 text-3xl">Resume</h3>
         <h6>
           Toggle here to print or download my{" "}
@@ -20,9 +20,9 @@ export default function Resume() {
         </h6>
       </div>
       {showPDF ? (
-        <div>
-          <ul>
-           <p className="font-bold"> Front-end Proficiencies</p>
+        <div className="mx-5 flex flex-row">
+          <ul className="mx-5">
+            <p className="font-bold"> Front-end Proficiencies</p>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -33,8 +33,9 @@ export default function Resume() {
             <li>MUI</li>
             <li>TailwindCSS</li>
           </ul>
-          <ul>
-          <p className="font-bold"> Back-end Proficiencies</p>
+
+          <ul className="mx-5 basis-50">
+            <p className="font-bold"> Back-end Proficiencies</p>
             <li>Node</li>
             <li>Express</li>
             <li>MySQL & Sequelize</li>
@@ -45,7 +46,13 @@ export default function Resume() {
         </div>
       ) : (
         <div className="w-100">
-          <object aria-label="pdf resume" width="100%" height="800" data={PDF} type="application/pdf" />
+          <object
+            aria-label="pdf resume"
+            width="100%"
+            height="800"
+            data={PDF}
+            type="application/pdf"
+          />
         </div>
       )}
     </>

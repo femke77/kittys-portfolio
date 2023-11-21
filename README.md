@@ -47,6 +47,7 @@
 ![screenshot-2](./src/assets/portfolio.png)
 
 ![screenshot-3](./src/assets/contact.png)
+_____________________________________________
 
 ![screenshot-3](./src/assets/404.png)
 

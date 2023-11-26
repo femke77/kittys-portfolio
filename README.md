@@ -39,7 +39,7 @@
   Clone the repository, install dependencies and run npm start dev
 
   ### Deployed Link
-  not deployed at this time
+ [deployed app](https://kittys-vite-portfolio-021bf67b3d73.herokuapp.com/)
 
 ### Screenshots
 ![screenshot-1](./src/assets/about.png)

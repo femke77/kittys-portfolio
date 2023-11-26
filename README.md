@@ -39,7 +39,7 @@
   Clone the repository, install dependencies and run npm start dev
 
   ### Deployed Link
- [deployed app](https://sparkly-custard-dd3fea.netlify.app/)
+ [Click here to see kitty's portfolio on Netlify](https://sparkly-custard-dd3fea.netlify.app/)
 
 ### Screenshots
 ![screenshot-1](./src/assets/about.png)

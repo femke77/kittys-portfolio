@@ -43,7 +43,9 @@ export default function Resume() {
             <li>REST APIs</li>
             <li>GraphQL</li>
           </ul>
+          <p>Also: being an awesome kitty. </p>
         </div>
+        
       ) : (
         <div className="w-100">
           <object

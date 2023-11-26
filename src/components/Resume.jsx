@@ -14,7 +14,7 @@ export default function Resume() {
         <h3 className="pb-2 text-3xl">Resume</h3>
         <h6>
           Toggle here to print or download my{" "}
-          <a href="#resumePDF" onClick={handleClick} className="underline">
+          <a href="#resume" onClick={handleClick} className="underline">
             resume
           </a>
         </h6>

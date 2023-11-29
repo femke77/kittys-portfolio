@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PDF from "../assets/fake-resume.pdf";
+import { Document,Page } from 'react-pdf';
 
 export default function Resume() {
   const [showPDF, setShowPDF] = useState(true);
@@ -47,14 +48,17 @@ export default function Resume() {
         </div>
         
       ) : (
-        <div className="w-100">
-          <object
+        <div className="">
+          <Document file={PDF}>
+          <Page/>
+          </Document>
+          {/* <object
             aria-label="pdf resume"
             width="100%"
             height="800"
             data={PDF}
             type="application/pdf"
-          />
+          /> */}
         </div>
       )}
     </>

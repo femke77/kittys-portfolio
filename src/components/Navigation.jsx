@@ -1,6 +1,6 @@
-import { Fragment, useState } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+
+import { Disclosure } from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import  paw from "../assets/paw.jpg";
 
@@ -69,8 +69,8 @@ const location = useLocation()
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden">
-            <div className="space-y-1 px-2 pb-3 pt-2">
+          <Disclosure.Panel className="sm:hidden absolute z-40 bg-gray-800 w-full">
+            <div className="space-y-1 px-2 pb-3 pt-2 ">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}

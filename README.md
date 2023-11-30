@@ -60,7 +60,7 @@ _____________________________________________
 
 ## Known Issues
 - Support for multi-page view resume as image is not yet provided, but coming soon. 
-- When downloading resume save button in adobe is disabled. Don't yet know if that's from my end or what I can do about that. 
+
 
 ## How To Contribute
   

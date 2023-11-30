@@ -79,7 +79,7 @@ export default function Resume() {
       ) : (
         <div className="">
           <Document file={PDF} onLoadSuccess={onDocumentLoadSuccess}>
-            <Page pageNumber={pageNumber} />
+            <Page pageNumber={pageNumber} renderAnnotationLayer={false} renderTextLayer={false}/>
           </Document>
           <p>
             Page {pageNumber} of {numPages}

@@ -60,7 +60,7 @@ _____________________________________________
 
 ## Known Issues
 - Support for multi-page view resume as image is not yet provided, but coming soon. 
-- two extra pdf layers taking up large white space under the resume image.
+
 
 ## How To Contribute
   

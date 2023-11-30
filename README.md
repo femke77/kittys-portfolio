@@ -47,6 +47,10 @@
 ![screenshot-2](./src/assets/portfolio.png)
 
 ![screenshot-3](./src/assets/contact.png)
+
+![screenshot-4](./src/assets/resume-base.png)
+
+![screenshot-5](./src/assets/resume-image.png)
 _____________________________________________
 
 ![screenshot-3](./src/assets/404.png)
@@ -55,7 +59,8 @@ _____________________________________________
 
 
 ## Known Issues
-None
+- Support for multi-page view resume as image is not yet provided, but coming soon. 
+- When downloading resume save button in adobe is disabled. Don't yet know if that's from my end or what I can do about that. 
 
 ## How To Contribute
   

@@ -1,9 +1,34 @@
 import React, { useState } from "react";
 import PDF from "../assets/fake-resume.pdf";
-import { Document,Page } from 'react-pdf';
+import { pdfjs, Document, Page } from "react-pdf";
 
 export default function Resume() {
+  pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+    "pdfjs-dist/build/pdf.worker.min.js",
+    import.meta.url
+  ).toString();
+
+  //  coming soon: support for multiple page resume.
+  const [numPages, setNumPages] = useState();
+
+  const [pageNumber, setPageNumber] = useState(1);
   const [showPDF, setShowPDF] = useState(true);
+
+  const handleDownload = () => {
+    fetch(PDF).then((response) => {
+      response.blob().then((blob) => {
+        const fileURL = window.URL.createObjectURL(blob);
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = 'fake-resume.pdf';
+        alink.click(); //takes user immediately to adobe
+      });
+    });
+  };
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
 
   const handleClick = () => {
     setShowPDF(!showPDF);
@@ -14,11 +39,16 @@ export default function Resume() {
       <div className="pb-2 mx-5">
         <h3 className="pb-2 text-3xl">Resume</h3>
         <h6>
-          Toggle here to print or download my{" "}
-          <a href="#resume" onClick={handleClick} className="underline">
+          Toggle here to view my{" "}
+          <a href="#image" onClick={handleClick} className="underline">
             resume
-          </a>
+          </a>{" "}
+          as an image.
         </h6>
+        Click here to download my{" "}
+        <a href="#download" onClick={handleDownload} className="underline">
+           resume
+        </a>
       </div>
       {showPDF ? (
         <div className="mx-5 flex flex-row">
@@ -46,19 +76,14 @@ export default function Resume() {
           </ul>
           <p>Also: being an awesome kitty. </p>
         </div>
-        
       ) : (
         <div className="">
-          <Document file={PDF}>
-          <Page/>
+          <Document file={PDF} onLoadSuccess={onDocumentLoadSuccess}>
+            <Page pageNumber={pageNumber} />
           </Document>
-          {/* <object
-            aria-label="pdf resume"
-            width="100%"
-            height="800"
-            data={PDF}
-            type="application/pdf"
-          /> */}
+          <p>
+            Page {pageNumber} of {numPages}
+          </p>
         </div>
       )}
     </>

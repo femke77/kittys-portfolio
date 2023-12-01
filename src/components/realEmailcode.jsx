@@ -1,4 +1,4 @@
-// example of working email form with emailjs - Not connected to the other contact form
+// example of working email form with emailjs - Not connected to the other contact form or the app right now
 
 // 𝗺𝗮𝗸𝗲 𝘀𝘂𝗿𝗲 𝘂𝘀𝗲𝗿_𝗻𝗮𝗺𝗲 𝗺𝗮𝘁𝗰𝗵𝗲𝘀 𝗼𝗻 𝘁𝗵𝗲 𝗲𝗺𝗮𝗶𝗹𝗷𝘀 𝘄𝗲𝗯𝘀𝗶𝘁𝗲
 // 𝘂𝘀𝗲𝗥𝗲𝗳 𝗮𝗹𝗹𝗼𝘄𝘀 𝘂𝘀 𝘁𝗼 𝗮𝗰𝗰𝗲𝘀𝘀 𝘁𝗵𝗲 .𝗰𝘂𝗿𝗿𝗲𝗻𝘁 𝗼𝗯𝗷𝗲𝗰𝘁. 𝗜𝘁 𝘄𝗼𝗻'𝘁 𝘁𝗿𝗶𝗴𝗴𝗲𝗿 𝗿𝗲𝗿𝗲𝗻𝗱𝗲𝗿

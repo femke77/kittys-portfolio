@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import PDF from "../assets/fake-resume.pdf";
 import { pdfjs, Document, Page } from "react-pdf";
 
-// TODO manage multi-page pdf 
 export default function Resume() {
   pdfjs.GlobalWorkerOptions.workerSrc = new URL(
     "pdfjs-dist/build/pdf.worker.min.js",
@@ -10,13 +9,12 @@ export default function Resume() {
   ).toString();
 
   const maxWidth = 800;
-  //  coming soon: support for multiple page resume.
+  //  // TODO coming soon: support for multiple page resume.
   const [numPages, setNumPages] = useState();
-
   const [pageNumber, setPageNumber] = useState(1);
+
   const [showPDF, setShowPDF] = useState(true);
   const [containerWidth, setContainerWidth] = useState(window.innerWidth);
- console.log(containerWidth);
 
   const handleDownload = () => {
     fetch(PDF).then((response) => {
@@ -25,7 +23,7 @@ export default function Resume() {
         let alink = document.createElement("a");
         alink.href = fileURL;
         alink.download = "fake-resume.pdf";
-        alink.click(); //takes user immediately to adobe
+        alink.click(); 
       });
     });
   };
@@ -47,7 +45,7 @@ export default function Resume() {
           <a href="#image" onClick={handleClick} className="underline">
             resume
           </a>{" "}
-          as an image.
+          as an image. 
         </h6>
         Click here to download my{" "}
         <a href="#download" onClick={handleDownload} className="underline">
@@ -86,9 +84,10 @@ export default function Resume() {
             <Page
               pageNumber={pageNumber}
               width={
-                containerWidth ? Math.min(containerWidth, maxWidth) -30 : maxWidth
+                containerWidth
+                  ? Math.min(containerWidth, maxWidth) - 30
+                  : maxWidth
               }
-              
               renderAnnotationLayer={false}
               renderTextLayer={false}
             />

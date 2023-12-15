@@ -38,6 +38,8 @@
   
   Clone the repository, install dependencies and run npm start dev
 
+  Exciting update: This is now a full PWA app. It is installable, works offline, and is superfast after first load thanks to a robust precache strategey. Use Chrome dev tools to see all the details and test it youself. 
+
   ### Deployed Link
  [Click here to see kitty's portfolio on Netlify](https://sparkly-custard-dd3fea.netlify.app/)
 

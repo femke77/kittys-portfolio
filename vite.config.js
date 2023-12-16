@@ -6,14 +6,14 @@ export default defineConfig({
   plugins: [react(),
   VitePWA({
     registerType: 'autoUpdate',
-    injectRegister: 'auto',
+    injectRegister: 'script-defer',
     devOptions: {
       enabled: true
     },
     manifest: {
       name: 'Kittys portfolio with PWA',
       short_name: 'Kittys portfolio',
-      description: 'Kittys first vite portfolio with PWA',
+      description: 'Kittys first vite react portfolio with PWA',
       theme_color: '#ffffff',
       icons: [
         {
@@ -29,7 +29,7 @@ export default defineConfig({
       ]
     },
     workbox: {
-      globPatterns: ['**/*.{js,css,html,ico,png,svg,jpg,webp,pdf,jsx}'],
+      globPatterns: ['**/*.{js,css,html,png,svg,jpg,pdf,jsx}'],
       runtimeCaching: [
         {
           urlPattern: ({ url }) => {
@@ -49,6 +49,7 @@ export default defineConfig({
   ],
   server: {
     port: 3000,
-    open: true
+    open: true,
+    host: true
   }
 })

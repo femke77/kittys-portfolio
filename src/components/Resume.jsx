@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import PDF from "../assets/fake-resume.pdf";
+import PDF from "../assets/fake-mp-resume.pdf";
 import { pdfjs, Document, Page } from "react-pdf";
 
 export default function Resume() {
@@ -81,9 +81,11 @@ export default function Resume() {
         </div>
       ) : (
         <div className="">
-          <Document file={PDF} onLoadSuccess={onDocumentLoadSuccess}>
+        {Array.from(new Array(numPages), (_, idx)=>(
+            <Document file={PDF} onLoadSuccess={onDocumentLoadSuccess}>
             <Page
-              pageNumber={pageNumber}
+            key={`page_${idx+1}`}
+              pageNumber={idx+1}
               width={
                 containerWidth
                   ? Math.min(containerWidth, maxWidth) - 30
@@ -91,11 +93,11 @@ export default function Resume() {
               }
               renderAnnotationLayer={false}
               renderTextLayer={false}
-            />
-          </Document>
-          <p>
-            Page {pageNumber} of {numPages}
-          </p>
+            /> <p>
+            Page {idx+1} of {numPages}
+          </p> </Document>
+        ))}     
+         
         </div>
       )}
     </>

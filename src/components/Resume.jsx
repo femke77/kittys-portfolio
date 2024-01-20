@@ -9,7 +9,7 @@ export default function Resume() {
   ).toString();
 
   const maxWidth = 800;
-  //  // TODO coming soon: support for multiple page resume.
+  // multipage resume example is on branch 'feature/multipage-resume'
   const [numPages, setNumPages] = useState();
   const [pageNumber, setPageNumber] = useState(1);
 

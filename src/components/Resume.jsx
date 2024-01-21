@@ -42,7 +42,7 @@ export default function Resume() {
         <h6>
           Toggle here to view my{" "}
           <a href="#image" onClick={handleClick} className="underline">
-            resume as an image.
+            resume
           </a>{" "}
           as an image. 
         </h6>

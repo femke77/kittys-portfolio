@@ -50,7 +50,7 @@ export default function Resume() {
         </h6>
         Click here to download my{" "}
         <a href="#download" onClick={handleDownload} className="underline">
-          resume
+          resume as a pdf.
         </a>
       </div>
       {showPDF ? (

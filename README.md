@@ -61,7 +61,9 @@ _____________________________________________
 
 
 ## Known Issues
-- Support for multi-page view resume as image is not yet provided, but coming soon. 
+- Support for multi-page view resume as image is included on the branch feature/multipage-resume not
+on the main branch. git checkout feature/multipage-resume to see the code.
+- No other issues known at this time, please submit and email or issue if you find any.
 
 
 ## How To Contribute

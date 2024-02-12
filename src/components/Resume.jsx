@@ -20,7 +20,7 @@ export default function Resume() {
     fetch(PDF).then((response) => {
       response.blob().then((blob) => {
         const fileURL = URL.createObjectURL(blob);
-        // open(fileURL, '_blank')  //alternative to the a link opens embedded adobe viewer
+         //open(fileURL, '_blank')  //alternative to the a link opens embedded adobe viewer !CHECK SAFARI!
         let alink = document.createElement("a");
         alink.href = fileURL;
         alink.download = "fake-resume.pdf";

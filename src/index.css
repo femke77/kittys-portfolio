@@ -11,6 +11,9 @@
   
 }
 
+body {
+  background-image: url("./assets//bg.jpg");
+}
 /* #root {
   min-height: 100%;
   display: flex;

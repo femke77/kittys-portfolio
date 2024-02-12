@@ -17,6 +17,9 @@ body {
   background-size: cover;
 }
 
+a {
+  color: red;
+}
 /* #root {
   min-height: 100%;
   display: flex;

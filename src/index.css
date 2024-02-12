@@ -12,8 +12,11 @@
 }
 
 body {
-  background-image: url("./assets//bg.jpg");
+  background-image: url("./assets/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 /* #root {
   min-height: 100%;
   display: flex;

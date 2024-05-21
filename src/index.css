@@ -11,20 +11,19 @@
   
 }
 
-body {
-  background-image: url("./assets/images/bg.jpg");
+/* body {
+  background-image: url(./assets/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
-a {
-  color: red;
-}
-/* #root {
+
+#root {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-} */
+}
+
 .p-img {
   height: 250px;
   width: 450px;

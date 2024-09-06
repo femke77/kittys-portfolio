@@ -8,7 +8,7 @@ export default function Resume() {
     import.meta.url
   ).toString();
 
-  const maxWidth = 800;
+  const maxWidth = 500;
   // multipage resume example is on branch 'feature/multipage-resume'
   const [numPages, setNumPages] = useState();
   const [pageNumber, setPageNumber] = useState(1);
@@ -20,11 +20,11 @@ export default function Resume() {
     fetch(PDF).then((response) => {
       response.blob().then((blob) => {
         const fileURL = URL.createObjectURL(blob);
-         //open(fileURL, '_blank')  //alternative to the a link opens embedded adobe viewer
+        //open(fileURL, '_blank')  //alternative to the a link opens embedded adobe viewer
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "fake-resume.pdf";
-        alink.click(); 
+        alink.download = "change-name-here.pdf";
+        alink.click();
       });
     });
   };
@@ -46,12 +46,14 @@ export default function Resume() {
           <a href="#image" onClick={handleClick} className="underline">
             resume
           </a>{" "}
-          as an image. 
+          as an image.
         </h6>
-        Click here to download my{" "}
-        <a href="#download" onClick={handleDownload} className="underline">
-          resume as a pdf.
-        </a>
+        <p>
+          Click here to download my{" "}
+          <a href="#download" onClick={handleDownload} className="underline">
+            resume as a pdf.
+          </a>
+        </p>
       </div>
       {showPDF ? (
         <div className="mx-5 flex flex-row">
@@ -91,6 +93,7 @@ export default function Resume() {
               }
               renderAnnotationLayer={false}
               renderTextLayer={false}
+              style={{ backgroundColor: "aaaaaa" }}
             />
           </Document>
           <p>

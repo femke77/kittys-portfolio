@@ -3,14 +3,14 @@
       "name": "project 1 test",
       "description": "HTML/JS/CSS",
       "link": "https://heroku.com",
-      "repo": "https://github.com/femke77",
+      "repo": "https://github.com/user",
       "image": "cute"
     },
     {
       "name": "project 2 test",
       "description": "NRG Stack",
       "link": "https://heroku.com/",
-      "repo": "https://github.com/femke77",
+      "repo": "https://github.com/user",
       "image": "cute2"
     }
   ]
